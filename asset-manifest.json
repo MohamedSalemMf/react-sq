@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-sq/static/css/main.bec3dc2a.chunk.css",
+    "main.css": "/react-sq/static/css/main.1c9d402e.chunk.css",
     "main.js": "/react-sq/static/js/main.19b18814.chunk.js",
     "main.js.map": "/react-sq/static/js/main.19b18814.chunk.js.map",
     "runtime-main.js": "/react-sq/static/js/runtime-main.924bd97f.js",
@@ -10,7 +10,7 @@
     "static/js/2.621b7e05.chunk.js.map": "/react-sq/static/js/2.621b7e05.chunk.js.map",
     "index.html": "/react-sq/index.html",
     "static/css/2.019c1dfb.chunk.css.map": "/react-sq/static/css/2.019c1dfb.chunk.css.map",
-    "static/css/main.bec3dc2a.chunk.css.map": "/react-sq/static/css/main.bec3dc2a.chunk.css.map",
+    "static/css/main.1c9d402e.chunk.css.map": "/react-sq/static/css/main.1c9d402e.chunk.css.map",
     "static/js/2.621b7e05.chunk.js.LICENSE.txt": "/react-sq/static/js/2.621b7e05.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/react-sq/static/media/bac.be9ff56f.jpg",
     "static/media/all.min.css": "/react-sq/static/media/fa-solid-900.f4f93856.woff",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.924bd97f.js",
     "static/css/2.019c1dfb.chunk.css",
     "static/js/2.621b7e05.chunk.js",
-    "static/css/main.bec3dc2a.chunk.css",
+    "static/css/main.1c9d402e.chunk.css",
     "static/js/main.19b18814.chunk.js"
   ]
 }
