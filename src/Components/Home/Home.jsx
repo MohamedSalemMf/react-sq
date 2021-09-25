@@ -1700,8 +1700,17 @@ class Home extends React.Component {
                         <div className=" col-xl-2  col-lg-3 col-md-4 col-sm-6">
                             <div className="cdsgoogle ">
                                 <img src={google1} alt="" />
+                                <img src={google1} alt="" />
+                                <img src={google1} alt="" />
+                                <img src={google1} alt="" />
+                                <img src={google1} alt="" />
                             </div>
                             <div className="cdsgoogle mt-3">
+                                <img src={google1} alt="" />
+                                <img src={google1} alt="" />
+                                <img src={google1} alt="" />
+                                <img src={google1} alt="" />
+                                <img src={google1} alt="" />
                                 <img src={google1} alt="" />
                             </div>
                         </div>
