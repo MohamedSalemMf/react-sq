@@ -10,7 +10,6 @@
 .container-cr{
     width: 95%;
     margin: auto;
-
 }
 
 .cds{
@@ -30,7 +29,7 @@
     margin: 0;
 }
 .cards .ch1{
-    color: #303030;
+    color: #000;
     padding: 0rem 0rem .2rem 0rem;
     font-family: 'Tajawal', sans-serif;    
     font-size: 17px;
@@ -46,7 +45,7 @@
 .cards .ch3 ,.cards .ch4{
     font-size: 15px;
     padding: 0rem 0rem .2rem 0rem;
-    color:#303030;
+    color:#1a1919;
     font-family: 'Tajawal', sans-serif;  
     font-weight:lighter;
 }
@@ -517,7 +516,7 @@
     cursor: pointer;
     padding: 5px 0 0 0;
 
-    height: 135vh;
+    height: 115vh;
 }
 .cdsgoogle img{
     height: 100%;
