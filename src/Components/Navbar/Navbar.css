@@ -1,0 +1,119 @@
+.Post{
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: lighter;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #AA0C1C;
+    padding: 10px  10px 10px 40px;
+}
+.Post span{
+    opacity: .9;
+    padding: 0rem .8rem 0 .3rem;
+}
+.Post i{
+    border: 2px solid #FFFFFF;
+    padding: 2px 3px ;
+    font-size: 13px;
+    opacity: .8;
+    position: absolute;
+    left: 0px;
+    top: 9px;
+    border-radius: 4px;
+}
+.SaershBtn{
+    border-radius:0px 10px 10px 0px !important; 
+    border: 1px solid transparent;
+    padding: 0rem 1rem;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #AA0C1C;
+}
+.inLocaionLaptop{
+    border: 1px solid #e6dede;
+    height: 100%;
+    color: #979797;
+    background-color: transparent;
+    padding: .6rem  0rem;
+    box-shadow: 0 0 3px  #dbcfcf;
+
+}
+
+.groupDropdown{
+    border: 1px solid #e6dede;
+    box-shadow: 0px 0px 2px  #979797;
+    height: 100%;
+
+}
+.inpLaptop{
+    border-radius: 8px 0px 0px 8px;
+}
+.formLaptop{
+    border-radius: 0rem !important;
+}
+.inLocaionLaptop::placeholder{
+    color: #979797;
+    opacity: .6;
+    padding: 0 3px;
+    font-size: 14px;
+}
+.crosshairs{
+    position: absolute;
+    color: #979797;
+    opacity: .6;
+    top: 14px;
+    right: 10px;
+}
+.Laptop .form-control:focus{
+    background-color: transparent;
+    border: solid transparent 1px;
+    border-color: #e6dede ;
+
+    box-shadow: 0px 0px 2px  #e6dede;
+}
+.Locaion .form-control:focus{
+    background-color: transparent;
+    border: solid transparent 1px;
+    border-color: #e6dede ;
+
+    box-shadow: 0px 0px 2px  #e6dede;
+}
+
+
+/* =============================================================== */
+/* nav 1 */
+.navbar2{
+    background-color: #303030;
+    position: relative;
+}
+
+.menu{
+    background-color: #303030 !important;
+}
+
+.navLink2 a{
+    color: #FFFFFF !important;
+    font-size: 15px;
+    font-family: 'Tajawal', sans-serif;  
+    font-weight: lighter;
+    opacity: .7;
+}
+
+.groupDropdown button{
+    color: #979797;
+    opacity: .6;
+    font-size: 14px;
+    /* border-radius:8px !important;  */
+}
+
+.menu2{
+    background-color: #f8f9fa!important;
+}
+.dropdown-toggle::after {
+    margin-left: 1.255em;
+}
+
+
+
+
