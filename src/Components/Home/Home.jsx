@@ -152,7 +152,9 @@ class Home extends React.Component {
                 <div className="container-container">
                     <Carousel breakPoints={breakPoints} >
                         <div class="cds mx-1">
-                            <img src={myLap2} class="img-fluid" alt="..." />
+                            <div className="imgCard">
+                                <img src={myLap2} class="img-fluid" alt="..." />
+                            </div>
                             <div class="cards">
                                 <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                 <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -179,35 +181,9 @@ class Home extends React.Component {
                             <div className=" Featured"> <i class="fas fa-star"></i> Featured</div>
                         </div>
                         <div class="cds mx-1">
-                            <img src={myLap1} class="img-fluid" alt="..." />
-                            <div class="cards">
-                                <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
-                                <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
-                                <p className="ch3"> <i class="fas fa-map-marker-alt mr-2"></i> Riyadh, Saudi Arabia</p>
-                                <p className="ch4"> <i class="fas fa-shopping-cart mr-1"></i> For Sale</p>
-                                <p className="ch5">329.99 SAR</p>
+                            <div className="imgCard">
+                                <img src={myLap3} class="img-fluid" alt="..." />
                             </div>
-                            <div>
-                                <div className="ch6"></div>
-                                <div className="boxShare d-flex justify-content-around align-items-center">
-                                    <a href="/">
-                                        <i class=" ml-3 far fa-heart"></i>
-                                    </a>
-                                    <span className="py-3 borderR "></span>
-                                    <a href="/">
-                                        <i class="fas fa-share-alt"></i>
-                                    </a>
-                                    <span className="py-3 borderR "></span>
-                                    <a href="/">
-                                        <i class="mr-3 fas fa-eye"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className=" Featured"> <i class="fas fa-star"></i> Featured</div>
-                        </div>
-                        <div class="cds mx-1">
-                            <img src={myLap3} class="img-fluid" alt="..." />
                             <div class="cards">
                                 <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                 <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -235,7 +211,9 @@ class Home extends React.Component {
                             <div className=" Featured"> <i class="fas fa-star"></i> Featured</div>
                         </div>
                         <div class="cds mx-1">
-                            <img src={myLap2} class="img-fluid" alt="..." />
+                            <div className="imgCard">
+                                <img src={myLap1} class="img-fluid" alt="..." />
+                            </div>
                             <div class="cards">
                                 <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                 <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -263,7 +241,39 @@ class Home extends React.Component {
                             <div className=" Featured"> <i class="fas fa-star"></i> Featured</div>
                         </div>
                         <div class="cds mx-1">
-                            <img src={myLap1} class="img-fluid" alt="..." />
+                            <div className="imgCard">
+                                <img src={myLap3} class="img-fluid" alt="..." />
+                            </div>
+                            <div class="cards">
+                                <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
+                                <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
+                                <p className="ch3"> <i class="fas fa-map-marker-alt mr-2"></i> Riyadh, Saudi Arabia</p>
+                                <p className="ch4"> <i class="fas fa-shopping-cart mr-1"></i> For Sale</p>
+                                <p className="ch5">329.99 SAR</p>
+                            </div>
+                            <div>
+                                <div className="ch6"></div>
+                                <div className="boxShare d-flex justify-content-around align-items-center">
+                                    <a href="/">
+                                        <i class=" ml-3 far fa-heart"></i>
+                                    </a>
+                                    <span className="py-3 borderR "></span>
+                                    <a href="/">
+                                        <i class="fas fa-share-alt"></i>
+                                    </a>
+                                    <span className="py-3 borderR "></span>
+                                    <a href="/">
+                                        <i class="mr-3 fas fa-eye"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className=" Featured"> <i class="fas fa-star"></i> Featured</div>
+                        </div>
+                        <div class="cds mx-1">
+                            <div className="imgCard">
+                                <img src={myLap2} class="img-fluid" alt="..." />
+                            </div>
                             <div class="cards">
                                 <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                 <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -290,7 +300,9 @@ class Home extends React.Component {
                             <div className=" Featured"> <i class="fas fa-star"></i> Featured</div>
                         </div>
                         <div class="cds mx-1">
-                            <img src={myLap3} class="img-fluid" alt="..." />
+                            <div className="imgCard">
+                                <img src={myLap1} class="img-fluid" alt="..." />
+                            </div>
                             <div class="cards">
                                 <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                 <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -669,7 +681,9 @@ class Home extends React.Component {
                         <div className="items ">
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap1} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap1} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -699,7 +713,9 @@ class Home extends React.Component {
 
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap2} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap2} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -729,7 +745,9 @@ class Home extends React.Component {
 
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap1} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap1} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -759,7 +777,9 @@ class Home extends React.Component {
 
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap3} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap3} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -789,7 +809,9 @@ class Home extends React.Component {
 
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap1} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap1} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -819,7 +841,9 @@ class Home extends React.Component {
 
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap2} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap2} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -848,7 +872,9 @@ class Home extends React.Component {
                             </div>
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap3} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap3} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -877,7 +903,9 @@ class Home extends React.Component {
                             </div>
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap1} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap1} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -906,7 +934,9 @@ class Home extends React.Component {
                             </div>
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap3} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap3} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -935,7 +965,9 @@ class Home extends React.Component {
                             </div>
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap2} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap2} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -964,7 +996,9 @@ class Home extends React.Component {
                             </div>
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap1} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap1} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -993,7 +1027,9 @@ class Home extends React.Component {
                             </div>
                             <div className="item">
                                 <div class="cds">
-                                    <img src={myLap2} class="img-fluid" alt="..." />
+                                <div className="imgCard">
+                                            <img src={myLap2} class="img-fluid" alt="..." />
+                                        </div>
                                     <div class="cards">
                                         <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                         <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1053,7 +1089,9 @@ class Home extends React.Component {
                             <div className="items2 ">
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1082,7 +1120,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1111,7 +1151,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1140,7 +1182,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1169,7 +1213,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1198,7 +1244,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1227,7 +1275,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1263,10 +1313,11 @@ class Home extends React.Component {
                                     </div>
 
                                 </div>
-
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1295,7 +1346,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1324,7 +1377,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1353,7 +1408,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1382,7 +1439,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1411,7 +1470,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1440,7 +1501,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1469,7 +1532,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1498,7 +1563,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1527,7 +1594,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1556,7 +1625,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1585,7 +1656,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="item2">
                                     <div class="cds">
-                                        <img src={myLap1} class="img-fluid" alt="..." />
+                                        <div className="imgCard">
+                                            <img src={tap5} class="img-fluid" alt="..." />
+                                        </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
                                             <p className="ch2"> <i class="fas fa-clock mr-2"></i> 06/09/2021 05:23 PM</p>
@@ -1612,6 +1685,11 @@ class Home extends React.Component {
                                         <div className=" Featured"> <i class="fas fa-star"></i> Featured</div>
                                     </div>
                                 </div>
+    
+                   
+                
+    
+  
                                 <div class="clr"></div>
                             </div>
                             <div className="pt-3">
@@ -1638,7 +1716,7 @@ class Home extends React.Component {
             <section className="section5 mt-4 pt-3">
                 <div className="container-cr">
                     <h2>Most Search Keywords</h2>
-                 
+
                     <p><span>Laptops: </span> Appleo Laptop | Acero Laptop | Samsing Laptop | Lenov Laptop | Sonyo Laptop | Delli Laptop | Asuso Laptop | Toshibao Laptop | LGG Laptop | HPO Laptop</p>
                     <p><span>Tablet: </span> FUKIO Watches | Titan Watches | Casioo Watches | Fastrack Watches | Timexi Watches | Fossili Watches | Dieselo Watches | Toshibao Watches | Luxury Watches</p>
                     <p className="mb-3"><span>Mobile phone: </span> Shoes | Casual Shoes | Sports Shoes | Adidasi Shoes | Gas Shoes | Pumai Shoes | Reeboki Shoes | Woodlandi Shoes | Red Tape Shoes | Nikeo Shoes</p>
