@@ -1121,7 +1121,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1183,7 +1183,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1214,7 +1214,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap2} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1245,7 +1245,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1309,6 +1309,7 @@ class Home extends React.Component {
                                     <div className="go-googel">
 
                                         <img src={google1} class="img-fluid" alt="..." />
+                                        <img src={google1} class="img-fluid" alt="..." />
 
                                     </div>
 
@@ -1316,7 +1317,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1378,7 +1379,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1440,7 +1441,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1502,7 +1503,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1564,7 +1565,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
@@ -1626,7 +1627,7 @@ class Home extends React.Component {
                                 <div className="item2">
                                     <div class="cds">
                                         <div className="imgCard">
-                                            <img src={tap5} class="img-fluid" alt="..." />
+                                            <img src={tap6} class="img-fluid" alt="..." />
                                         </div>
                                         <div class="cards">
                                             <p className="ch1">8.0 Inch CHUWI Hi8 Air</p>
