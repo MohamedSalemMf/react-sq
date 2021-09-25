@@ -1636,8 +1636,9 @@ class Home extends React.Component {
             {/* ========================================================== */}
             {/* section 5 */}
             <section className="section5 mt-4 pt-3">
-                <div className="container-container">
+                <div className="container-cr">
                     <h2>Most Search Keywords</h2>
+                 
                     <p><span>Laptops: </span> Appleo Laptop | Acero Laptop | Samsing Laptop | Lenov Laptop | Sonyo Laptop | Delli Laptop | Asuso Laptop | Toshibao Laptop | LGG Laptop | HPO Laptop</p>
                     <p><span>Tablet: </span> FUKIO Watches | Titan Watches | Casioo Watches | Fastrack Watches | Timexi Watches | Fossili Watches | Dieselo Watches | Toshibao Watches | Luxury Watches</p>
                     <p className="mb-3"><span>Mobile phone: </span> Shoes | Casual Shoes | Sports Shoes | Adidasi Shoes | Gas Shoes | Pumai Shoes | Reeboki Shoes | Woodlandi Shoes | Red Tape Shoes | Nikeo Shoes</p>
